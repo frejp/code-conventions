@@ -11,6 +11,7 @@ This include folder/file structure
 ## U will need to add ur own add your own GitHub personal access token
 
 Add your token in the App.router.tsx file.
+Also add it in the .graphqlconfig in order to auto-generate typings from the graphql API
 
 ## Generate schema and typescript types
 
