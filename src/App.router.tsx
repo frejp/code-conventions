@@ -6,8 +6,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import { UserList, UserDetail } from './routes';
 
-// yes, I know what u are thinking...
-const token = '51e30ae2fdad19e4c7883f3590937fbe41ddce28';
+// add your own GitHub personal access token
+//scopes/permissions you need to check: user,repo
+const token = '';
 const client = new ApolloClient({
   request: (operation) => {
     operation.setContext({

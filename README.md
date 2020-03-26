@@ -1,15 +1,22 @@
-WIP
+##WIP
 
-Code conventions for a Apollo, TypeScript, React (Hooks) project.
+Code conventions for a fully typed Apollo, TypeScript, React (Hooks) project.
+We auto-generate the types for the graphQL api calls and then we type everything from there.
+
+This is -modern- Apollo/React/Typescript, leading edge
+technologies and code-conventions
+
 This include folder/file structure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## U will need ur own add your own GitHub personal access token
+
+Add your token in the App.router.tsx file.
+
+## Generate schema and typescript types
 
 Generate schema
 
 yarn graphql get-schema
-
-
 yarn apollo codegen:generate --localSchemaFile=schema.graphql --target=typescript --includes='src/**/*.tsx,src/**/*.ts' --tagName=gql --outputFlat=src/graphql.ts
 
 
