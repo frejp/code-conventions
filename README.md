@@ -1,4 +1,4 @@
-##WIP
+## WIP, leading edge, modern, tech and code conventions
 
 Code conventions for a fully typed Apollo, TypeScript, React (Hooks) project.
 We auto-generate the types for the graphQL api calls and then we type everything from there.
@@ -8,7 +8,7 @@ technologies and code-conventions
 
 This include folder/file structure
 
-## U will need ur own add your own GitHub personal access token
+## U will need to add ur own add your own GitHub personal access token
 
 Add your token in the App.router.tsx file.
 
@@ -17,6 +17,7 @@ Add your token in the App.router.tsx file.
 Generate schema
 
 yarn graphql get-schema
+
 yarn apollo codegen:generate --localSchemaFile=schema.graphql --target=typescript --includes='src/**/*.tsx,src/**/*.ts' --tagName=gql --outputFlat=src/graphql.ts
 
 
