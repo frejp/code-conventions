@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "graphqlProjectTestingGraphql": {
+      "schemaPath": "schema.graphql",
+      "extensions": {
+        "endpoints": {
+          "dev": {
+            "url": "https://api.github.com/graphql",
+            "headers": {
+              "Authorization": "Bearer 51e30ae2fdad19e4c7883f3590937fbe41ddce28"
+            }
+          }
+        }
+      }
+    }
+  }
+}
