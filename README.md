@@ -1,5 +1,8 @@
 WIP
 
+Code conventions for a Apollo, TypeScript, React (Hooks) project.
+This include folder/file structure
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Generate schema
