@@ -30,9 +30,7 @@ export const FlexWrapper = styled.div`
 export const StickyHeader: React.FunctionComponent<Props> = ({ contextRef, resultSelect }) => {
   const { usersIsLoading, users, searchQuery } = useUserSearch();
 
-  const mappedUsers = users;
-  console.log('this is mapped');
-  console.log(mappedUsers);
+  const searchResultTitles = users?.map(user => ({title: user.login}))
   const [searchInput, setSearchInput] = useState('');
 
   const handleSearch = (event: React.MouseEvent<HTMLElement, MouseEvent>, data: SearchProps) => {
@@ -58,7 +56,7 @@ export const StickyHeader: React.FunctionComponent<Props> = ({ contextRef, resul
                 onSearchChange={_.debounce(handleSearch, 5000, {
                   leading: true,
                 })}
-                results={mappedUsers}
+                results={searchResultTitles}
                 size="large"
                 value={searchInput}
               />
