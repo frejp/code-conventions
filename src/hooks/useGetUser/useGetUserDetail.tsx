@@ -44,13 +44,6 @@ export const useGetUserDetail = (login: string): UseGetUserDetailType => {
 
   const userDetail = mapDataToUserDetail(data);
 
-  if (loading) {
-    return {
-      userDetail,
-      loading,
-    };
-  }
-
   return {
     userDetail,
     loading,
