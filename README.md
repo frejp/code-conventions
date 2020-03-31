@@ -1,5 +1,7 @@
 ## WIP, leading edge, modern, tech and code conventions
 
+Test-link: https://frejp.github.io/code-conventions/
+
 Code conventions for a fully typed Apollo, TypeScript, React (Hooks) project.
 We auto-generate the types for the graphQL api calls and then we type everything from there.
 
@@ -9,6 +11,9 @@ technologies and code-conventions
 This include folder/file structure
 
 ## U will need to add ur own add your own GitHub personal access token
+
+The API is currently pointed at an AWS gateway endpoint which adds an authentication header in order to use the API.
+Buy you should ur own API key.
 
 Add your token in the App.router.tsx file.
 Also add it in the .graphqlconfig in order to auto-generate typings from the graphql API
