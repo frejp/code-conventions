@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import { UserList, UserDetail } from './routes';
 
+/*
 // add your own GitHub personal access token
 //scopes/permissions you need to check: user,repo
 const token = '';
@@ -18,6 +19,12 @@ const client = new ApolloClient({
     });
   },
   uri: 'https://api.github.com/graphql',
+});
+*/
+
+//This is the same API but trough MY aws-gateway.
+const client = new ApolloClient({
+  uri: 'https://kc8xol64vj.execute-api.us-east-2.amazonaws.com/fsdfds',
 });
 
 function App() {

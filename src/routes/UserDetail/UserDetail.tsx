@@ -6,13 +6,13 @@ import { UserDetailMobile } from './UserDetailMobile';
 import { useGetUserDetail } from '../../hooks';
 import { LoadingScreen } from '../../components';
 
-const HideForMobile = styled.div`
+const HideForDesktop= styled.div`
   @media (min-width: 679px) {
     display: none !important;
   }
 `;
 
-const HideForDesktop = styled.div`
+const HideForMobile = styled.div`
   @media (max-width: 679px) {
     display: none !important;
   }
@@ -43,12 +43,12 @@ export const UserDetail: React.FunctionComponent<Props> = ({
 
   return (
     <div data-testid={`user-profile-${'login'}`}>
-      <HideForDesktop>
-        <UserDetailDesktop userDetail={userDetail} />
-      </HideForDesktop>
       <HideForMobile>
-        <UserDetailMobile userDetail={userDetail} />
+        <UserDetailDesktop userDetail={userDetail} />
       </HideForMobile>
+      <HideForDesktop>
+        <UserDetailMobile userDetail={userDetail} />
+      </HideForDesktop>
     </div>
   );
 };

@@ -65,7 +65,6 @@ export const useUserSearch = () => {
     });
   };
 
-
   const getPrevious = () => {
     const variables = {
       query: query as string,
