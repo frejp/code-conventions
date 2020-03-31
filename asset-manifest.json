@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/code-conventions/static/css/main.69c887fc.chunk.css",
+    "main.js": "/code-conventions/static/js/main.25f85125.chunk.js",
+    "main.js.map": "/code-conventions/static/js/main.25f85125.chunk.js.map",
+    "runtime-main.js": "/code-conventions/static/js/runtime-main.65ce0fe5.js",
+    "runtime-main.js.map": "/code-conventions/static/js/runtime-main.65ce0fe5.js.map",
+    "static/css/2.e1513518.chunk.css": "/code-conventions/static/css/2.e1513518.chunk.css",
+    "static/js/2.fa5c291e.chunk.js": "/code-conventions/static/js/2.fa5c291e.chunk.js",
+    "static/js/2.fa5c291e.chunk.js.map": "/code-conventions/static/js/2.fa5c291e.chunk.js.map",
+    "index.html": "/code-conventions/index.html",
+    "precache-manifest.319a6351cd002621ac2478348ac8bd36.js": "/code-conventions/precache-manifest.319a6351cd002621ac2478348ac8bd36.js",
+    "service-worker.js": "/code-conventions/service-worker.js",
+    "static/css/2.e1513518.chunk.css.map": "/code-conventions/static/css/2.e1513518.chunk.css.map",
+    "static/css/main.69c887fc.chunk.css.map": "/code-conventions/static/css/main.69c887fc.chunk.css.map",
+    "static/js/2.fa5c291e.chunk.js.LICENSE.txt": "/code-conventions/static/js/2.fa5c291e.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/code-conventions/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65ce0fe5.js",
+    "static/css/2.e1513518.chunk.css",
+    "static/js/2.fa5c291e.chunk.js",
+    "static/css/main.69c887fc.chunk.css",
+    "static/js/main.25f85125.chunk.js"
+  ]
+}
