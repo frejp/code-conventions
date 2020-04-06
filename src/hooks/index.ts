@@ -1,2 +1,2 @@
 export * from './useUserSearch';
-export * from './useGetUser';
+export * from './useGetUserDetail';

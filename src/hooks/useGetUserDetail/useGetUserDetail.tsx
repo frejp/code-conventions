@@ -4,7 +4,7 @@ import { useGetUserDetailQuery } from './useGetUserDetail.query';
 import { getUserDetailQuery as UserDetailNode } from '../../graphql';
 import { UserDetailType, UseGetUserDetailType } from './useGetuserDetail.types';
 
-const emptyUserDetail = {
+const emptyUserDetail:UserDetailType = {
   id: '',
   avatarUrl: '',
   bio: '',
@@ -14,6 +14,10 @@ const emptyUserDetail = {
   name: '',
   login: '',
   location: '',
+  repositoriesTotalCount: '',
+  repositoriesContributedTo: '',
+  gists: '',
+  followers: '',
 };
 
 const mapDataToUserDetail = (data: UserDetailNode): UserDetailType | undefined => {

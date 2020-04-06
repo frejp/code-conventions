@@ -1,7 +1,7 @@
 import { useLazyQuery } from 'react-apollo';
 import { useEffect, useState } from 'react';
 
-import { searchUsersQuery } from './searchUsers.query';
+import { useUserSearchQuery } from './useUserSearch.query';
 import {
   searchUsers as SearchUsers,
   searchUsers_search_edges as Edge,
@@ -41,7 +41,7 @@ export const useUserSearch = () => {
     hasPreviousPage: null,
   });
   const [query, setQuery] = useState<string|null>(null);
-  const [searchForUsers, { loading, data }] = useLazyQuery(searchUsersQuery);
+  const [searchForUsers, { loading, data }] = useLazyQuery(useUserSearchQuery);
 
   const pageInfoFromData = data?.search?.pageInfo
 

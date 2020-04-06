@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
 
-export const searchUsersQuery = gql`
+export const useUserSearchQuery = gql`
   query searchUsers($query: String!, $after: String) {
     search(query: $query, type: USER, first: 30, after: $after) {
       pageInfo {
