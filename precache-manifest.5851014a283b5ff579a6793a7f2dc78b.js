@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91083dcf502da41492deda6243e93f5a",
+    "revision": "a111b20c816e04b405b68c69ef102459",
     "url": "/code-conventions/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code-conventions/static/css/2.e1513518.chunk.css"
   },
   {
-    "revision": "7e05ad738a017b5fa0d6",
+    "revision": "66c9fb766fd5cdabb8f0",
     "url": "/code-conventions/static/css/main.69c887fc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code-conventions/static/js/2.fa5c291e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e05ad738a017b5fa0d6",
-    "url": "/code-conventions/static/js/main.25f85125.chunk.js"
+    "revision": "66c9fb766fd5cdabb8f0",
+    "url": "/code-conventions/static/js/main.23886cdb.chunk.js"
   },
   {
     "revision": "386437804c0f950da5bd",
